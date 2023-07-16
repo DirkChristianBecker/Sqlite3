@@ -7,7 +7,7 @@ to integrate this library into your project simply add these lines to your proje
 `cmake`:
 ```cmake
 add_subdirectory(SQLite3)
-target_link_libraries(${PROJECT_NAME} SQLite::SQLite3)
+target_link_libraries(${PROJECT_NAME} SQLite3)
 ```
 
 SQLite includes more than 100 files in `*.c` / `*.h`, but
@@ -27,8 +27,7 @@ SQLite includes more than 100 files in `*.c` / `*.h`, but
 
 
 ## SQLite3 build options
-`SQLite3` comes with plenty of
-[compile options](https://www.sqlite.org/compile.html)
+`SQLite3` comes with plenty of [compile options](https://www.sqlite.org/compile.html)
 
 following cmake build options control some of those compile options:
 
